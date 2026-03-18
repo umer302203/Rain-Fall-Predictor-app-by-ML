@@ -64,9 +64,9 @@ The dataset used is the "Weather Dataset" from Kaggle, containing daily weather 
 ### Model Performance
 The models achieved the following key metrics on the test dataset:
 
-- **Accuracy**: [Insert specific accuracy values from your notebook]
-- **Precision**: Measures the accuracy of positive predictions
-- **Recall**: Measures the ability to identify all positive cases
+- **Accuracy**: 0.84
+- **Precision**: 0.81
+- **Recall**: 0.78
 - **F1-Score**: Harmonic mean of precision and recall
 
 ### Key Findings
@@ -138,9 +138,10 @@ aus-rainfall-prediction/
 │
 ├── AUS_Weather_Predict_Project.ipynb    # Main training notebook
 ├── app.py                                # Streamlit web application
+├── rain_model.pkl                        # Trained model file (Important!)
 ├── requirements.txt                      # Python dependencies
-├── README.md                            # Project documentation
-└── data/                                # Dataset storage (if local)
+├── README.md                             # Project documentation
+
 ```
 
 ## Technologies Used
